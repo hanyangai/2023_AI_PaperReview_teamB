@@ -28,6 +28,7 @@ Inductive bias를 활용할 수 있다. **Time-conditional Unet**
 Latent Diffusion모델은 추론능력 상 이전 모델에 비해 **sementic한 포인트들**에 좀 더 집중이 가능하다. 
 
 <br>
+
 #### VAE(Variational auto encoder)
 <br>
 <p align="center">
@@ -49,6 +50,7 @@ encoder와 반대로 latent space를 input으로 변환한다. latent vector z�
 <br>
 
 <br>
+
 #### Cross-Attention Mechanism
 <p align="center">
 <img src=img/Cross-attention.png />
@@ -58,6 +60,7 @@ encoder와 반대로 latent space를 input으로 변환한다. latent vector z�
 두 개의 가중치를 Dot product(결과는 스칼라) 계산하고, softmax로 계산한다. 다시 텍스트 이미지에 Dot product연산하는 cross attention mechanism을 사용한다.
 
 <br>
+
 #### Loss
 
 ##### 1. Perceptual loss
@@ -75,6 +78,7 @@ encoder와 반대로 latent space를 input으로 변환한다. latent vector z�
 
 <br>
 <br>
+
 ##### 2. A Patch-based adversarial objective
 <p align="center">
 <img src=img/Patch-GAN.jpeg />
@@ -89,11 +93,13 @@ Patch 단위로 T/F를 판별하는 방식이다.
 
 
 <br>
+
 #### 실습
 
 ##### [Github코드](https://github.com/CompVis/latent-diffusion)
 
 <br>
+
 ##### A virus monster is playing guitar
 <p align="center">
 <img src=img/a-virus-monster-is-playing-guitar,-oil-on-canvas.png/>
