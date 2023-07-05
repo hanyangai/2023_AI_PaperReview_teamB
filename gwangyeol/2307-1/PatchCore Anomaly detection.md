@@ -1,6 +1,6 @@
 # **[22′CVPR] PatchCore : Towards Total Recall in Industrial Anomaly Detection**
 
-> [**arxiv Link](https://arxiv.org/pdf/2106.08265.pdf) - PatchCore Anomaly Detection**
+> [arxiv Link](https://arxiv.org/pdf/2106.08265.pdf) - PatchCore Anomaly Detection**
 > 
 
 ---
