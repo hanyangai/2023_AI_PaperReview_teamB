@@ -1,4 +1,4 @@
-<img width="676" alt="1" src="https://github.com/hanyangai/2023_AI_PaperReview_teamB/assets/90014998/605c9434-5273-4107-9c58-253c97dfa3c9"># **[22′CVPR] PatchCore : Towards Total Recall in Industrial Anomaly Detection**
+[22′CVPR] PatchCore : Towards Total Recall in Industrial Anomaly Detection**
 
 > [arxiv Link](https://arxiv.org/pdf/2106.08265.pdf) - PatchCore Anomaly Detection**
 > 
