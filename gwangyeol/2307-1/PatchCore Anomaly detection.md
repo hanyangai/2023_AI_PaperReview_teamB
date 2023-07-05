@@ -1,4 +1,4 @@
-# **[22′CVPR] PatchCore : Towards Total Recall in Industrial Anomaly Detection**
+<img width="676" alt="1" src="https://github.com/hanyangai/2023_AI_PaperReview_teamB/assets/90014998/605c9434-5273-4107-9c58-253c97dfa3c9"># **[22′CVPR] PatchCore : Towards Total Recall in Industrial Anomaly Detection**
 
 > [arxiv Link](https://arxiv.org/pdf/2106.08265.pdf) - PatchCore Anomaly Detection**
 > 
@@ -11,7 +11,8 @@
     - Anomaly detection 방식은 어떤 데이터 안에서 측정된 값들이 정상 데이터가 가진 특징과 다른 결과가 나왔을 경우를 비정상 데이터(anomaly data)로 탐지하는 방식
     - 이상치 탐지 방식은 supervised, unsupervised, semi-supervised(one-class) 방식이 존재
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/15b13f2d-46f9-48d8-af8a-90d3f135a8f6/Untitled.png)
+        <img width="676" alt="1" src="https://github.com/hanyangai/2023_AI_PaperReview_teamB/assets/90014998/7f503f3a-3072-4630-89d5-78768fb13bc7">
+
         
 - Anomaly detection & Anomaly segmentation(localization)
     - detection 같은 경우, input image 내 이상치 포함 여부에 따라 이상치 탐지
