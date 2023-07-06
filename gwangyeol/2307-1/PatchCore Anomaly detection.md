@@ -39,6 +39,7 @@
     - Recontruction-based method : 정상 data pattern train 후, input sample를 재구성하여 정상적인 data pattern과의 차이를 계산하는 방식
     
     ![4](https://github.com/hanyangai/2023_AI_PaperReview_teamB/assets/90014998/cf8b51db-d5d8-414a-b25f-82f363d227a0)
+  
     ![**자료 출처 - 고려대학교 산업경영공학부 DSBA 연구실** ]
 - PatchCore Model Structure
     
