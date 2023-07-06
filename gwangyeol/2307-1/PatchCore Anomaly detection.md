@@ -13,21 +13,19 @@
         
         <img width="676" alt="1" src="https://github.com/hanyangai/2023_AI_PaperReview_teamB/assets/90014998/7f503f3a-3072-4630-89d5-78768fb13bc7">
 
-        
 - Anomaly detection & Anomaly segmentation(localization)
     - detection 같은 경우, input image 내 이상치 포함 여부에 따라 이상치 탐지
     - segmentation 같은 경우, input image 내, pixel-level에 따라 이상치 탐지
         
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/720ffd72-bd2b-4498-b56b-02f8297fd072/Untitled.png)
+        <img width="735" alt="2" src="https://github.com/hanyangai/2023_AI_PaperReview_teamB/assets/90014998/a1db20a2-1789-45cf-9ff6-7fb7135eafac">
         
 - PatchCore 방식 Anomaly detection이란?
     - imageNet 기반 Pretrain model을 적극 활용하여 학습 과정 없이, 데이터셋의 feature 추출 하여, anomaly image를 탐지 하는 방식의 모델
     - 양품 데이터셋 전체를 저장하는 방식이 아닌 coreset 내 subsampling 과정을 통해 효과적으로 저장하며, 적은 양의 양품 데이터만으로도 높은 성능과 
     inference time(linear)을 감소
     - **keyword - coreset subsampling(greedy search), faiss, memory bank…**
-        
-        ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7fcf668f-181b-4e63-8ad8-6494176bef0a/Untitled.png)
-        
+
+        <img width="891" alt="3" src="https://github.com/hanyangai/2023_AI_PaperReview_teamB/assets/90014998/8fe6a986-82d7-4f6f-8dc5-21d9215fbebb">
 
 2 . Related Works & Method
 
@@ -40,10 +38,8 @@
     - classification-based method : 지도 학습 기반이며, 사전 학습 모델을 통해 one-class classification을 적용하여 비정상 데이터 탐지
     - Recontruction-based method : 정상 data pattern train 후, input sample를 재구성하여 정상적인 data pattern과의 차이를 계산하는 방식
     
-    ![**자료 출처 - 고려대학교 산업경영공학부 DSBA 연구실** ](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5dad4de0-741c-4625-b8d1-ae01877d8a5b/Untitled.png)
-    
-    **자료 출처 - 고려대학교 산업경영공학부 DSBA 연구실** 
-    
+    ![4](https://github.com/hanyangai/2023_AI_PaperReview_teamB/assets/90014998/cf8b51db-d5d8-414a-b25f-82f363d227a0)
+    ![**자료 출처 - 고려대학교 산업경영공학부 DSBA 연구실** ]
 - PatchCore Model Structure
     
     ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7fcf668f-181b-4e63-8ad8-6494176bef0a/Untitled.png)
